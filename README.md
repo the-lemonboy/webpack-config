@@ -1,20 +1,25 @@
-# webpack-congi
+# webpack-config
 
 ## Project setup
+
 ```
-yarn install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
-yarn serve
+pnpm start
 ```
 
 ### Compiles and minifies for production
+
 ```
-yarn build
+pnpm build
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # webpack-config
