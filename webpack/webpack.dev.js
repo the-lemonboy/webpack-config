@@ -7,7 +7,7 @@ const commonConfig = require('./webpack.common.js')
 
 module.exports = merge(commonConfig, {
   mode: 'development',
-  devtool: 'cheap-module-source-map',  // 更改为推荐的开发环境 source map
+  devtool: 'eval-cheap-module-source-map',  // 更改为推荐的开发环境 source map
 
   // spin up a server for quick development
   devServer: {
