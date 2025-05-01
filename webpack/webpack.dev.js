@@ -8,7 +8,9 @@ const commonConfig = require('./webpack.common.js')
 module.exports = merge(commonConfig, {
   mode: 'development',
   devtool: 'eval-cheap-module-source-map',  // 更改为推荐的开发环境 source map
-
+  cache:{
+    type:'filesystem'
+  },
   // spin up a server for quick development
   devServer: {
     compress: true,
